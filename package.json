@@ -23,12 +23,17 @@
     "groq"
   ],
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "pnpm -r --sort build",
     "dev": "pnpm -r dev",
     "test": "pnpm -r test"
   },
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
   },
   "workspaces": [
     "packages/*"

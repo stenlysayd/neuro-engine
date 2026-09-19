@@ -8,11 +8,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@neuro/brain-router": "*",
-    "@neuro/core": "*",
-    "@neuro/key-pool": "*",
-    "@neuro/memory": "*",
-    "@neuro/tts-router": "*",
+    "@neuro/brain-router": "workspace:*",
+    "@neuro/core": "workspace:*",
+    "@neuro/key-pool": "workspace:*",
+    "@neuro/memory": "workspace:*",
+    "@neuro/tts-router": "workspace:*",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "ws": "^8.21.3"
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
-    "@types/ws": "^8.18.1"
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.4.5"
   }
 }
