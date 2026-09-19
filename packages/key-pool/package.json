@@ -1,0 +1,13 @@
+{
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "@neuro/key-pool",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@neuro/memory": "*",
+    "@neuro/core": "*"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "neuro-engine",
+  "version": "1.0.0",
+  "description": "High-resilience multi-LLM orchestration engine with encrypted key pool leasing, cascading failovers, and streaming audio synthesis",
+  "license": "MIT",
+  "author": "Stenly Sayd <stenlysayd@gmail.com> (https://github.com/stenlysayd)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stenlysayd/neuro-engine.git"
+  },
+  "homepage": "https://github.com/stenlysayd/neuro-engine",
+  "keywords": [
+    "llm-orchestrator",
+    "multi-llm",
+    "ai-agents",
+    "key-pool",
+    "tts-streaming",
+    "monorepo",
+    "typescript",
+    "openai",
+    "anthropic",
+    "gemini",
+    "groq"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

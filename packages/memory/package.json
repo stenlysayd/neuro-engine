@@ -1,0 +1,16 @@
+{
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "@neuro/memory",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.5.1"
+  }
+}

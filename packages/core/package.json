@@ -1,0 +1,9 @@
+{
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "@neuro/core",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  }
+}

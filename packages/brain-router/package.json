@@ -1,0 +1,14 @@
+{
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "@neuro/brain-router",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@neuro/core": "*",
+    "@neuro/key-pool": "*",
+    "@neuro/memory": "*"
+  }
+}
