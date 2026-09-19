@@ -23,7 +23,7 @@
     "groq"
   ],
   "scripts": {
-    "build": "pnpm -r --sort build",
+    "build": "pnpm -r --workspace-concurrency=1 --sort build",
     "dev": "pnpm -r dev",
     "test": "pnpm -r test"
   },
